@@ -1,9 +1,29 @@
 <!DOCTYPE html>
-<html>
+<html lang="th">
 <head>
-<title>Welcome to my page</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ร้านอาหารตามสั่ง - หน้าแรก</title>
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
-<h1>Welcome to my page</h1>
+<body class="bg-gray-100">
+    <nav class="bg-white shadow-md">
+        <div class="container mx-auto px-4 py-4 flex justify-between items-center">
+            <h1 class="text-2xl font-bold text-green-600">ร้านอาหารตามสั่ง</h1>
+            <ul class="flex space-x-4">
+                <li><a href="index.html" class="text-gray-700 hover:text-green-600">หน้าแรก</a></li>
+                <li><a href="pages/menu.html" class="text-gray-700 hover:text-green-600">เมนูอาหาร</a></li>
+                <li><a href="pages/cart.html" class="text-gray-700 hover:text-green-600">ตะกร้าสินค้า</a></li>
+            </ul>
+        </div>
+    </nav>
+    <section class="hero bg-green-500 text-white py-20">
+        <div class="container mx-auto text-center">
+            <h2 class="text-4xl font-bold mb-4">สั่งอาหารง่ายๆ ที่บ้าน</h2>
+            <p class="text-xl mb-8">เลือกเมนูโปรดและจัดส่งถึงมือคุณ</p>
+            <a href="pages/menu.html" class="bg-white text-green-500 px-6 py-3 rounded-lg font-semibold hover:bg-gray-100">ดูเมนู</a>
+        </div>
+    </section>
+    <script src="script.js"></script>
 </body>
 </html>

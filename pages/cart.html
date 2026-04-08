@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ตะกร้าสินค้า</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100">
+    <nav class="bg-white shadow-md">
+        <div class="container mx-auto px-4 py-4 flex justify-between items-center">
+            <h1 class="text-2xl font-bold text-green-600">ร้านอาหารตามสั่ง</h1>
+            <ul class="flex space-x-4">
+                <li><a href="../index.html" class="text-gray-700 hover:text-green-600">หน้าแรก</a></li>
+                <li><a href="menu.html" class="text-gray-700 hover:text-green-600">เมนูอาหาร</a></li>
+                <li><a href="cart.html" class="text-gray-700 hover:text-green-600">ตะกร้าสินค้า</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container mx-auto px-4 py-8">
+        <h2 class="text-3xl font-bold mb-6">ตะกร้าสินค้า</h2>
+        <div id="cart-items"></div>
+        <div class="mt-8">
+            <a href="checkout.html" class="bg-green-500 text-white px-6 py-3 rounded-lg">ชำระเงิน</a>
+        </div>
+    </div>
+    <script src="../script.js"></script>
+</body>
+</html>
